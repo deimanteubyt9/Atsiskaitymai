@@ -123,13 +123,17 @@ background: none;
 .FooterAbout {
     width: 5000px;
     height: 30px;
+    justify-content: center;
+    text-align: center;
+@media screen and (min-widh-768px){
 }
 .footer {
     display: block;
-  position: absolute;
-    text-align: center;
+  
+    text-align: left;
     font-size: 10px;
 margin: 5px;
 padding: 10px;
-    }
+justify-content: center;
+    } }
     
